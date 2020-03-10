@@ -31,5 +31,36 @@ namespace TP1
         {
 
         }
+
+        private void btLogin_Click(object sender, EventArgs e)
+        {
+            User u = new User();
+
+            u.username = Convert.ToString(tbUsername.Text);
+            u.password = Convert.ToString(tbPassword.Text);
+
+            if(tbUsername.Text == "" || tbPassword.Text == "")
+            {
+                MessageBox.Show("Login gagal! Username/Password salah. Silahkan coba lagi.");
+            }
+            else
+            {
+                if(tbPassword.Text == "pbo123")
+                {
+                    this.Hide();
+                    FormHome home = new FormHome();
+                    home.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Login gagal! Username/Password salah. Silahkan coba lagi.");
+                }
+            }
+        }
+
+        private void tbUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

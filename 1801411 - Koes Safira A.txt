@@ -1,0 +1,14 @@
+"Saya Koes Safira Amanidyansari mengerjakan evaluasi TP 1 dalam mata kuliah 
+Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak 
+melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin."
+
+Kesulitan
+- masih sulit untuk mengatur size icon sehingga untuk logo button diakalin buat picturebox + button
+- masih tidak mengerti sistem foreach untuk menampilkan barang. jadi blm bisa 
+menampilkan barang dan buat form detail barangnya juga (sudah dibuat designnya). 
+namun sudah membuat user control untuk template tampil barangnya.
+
+Yang baru dipelajari
+- membuat user control terpisah untuk menampilkan barang
+- menambahkan hyperlink ke website ketika memencet button baru
+- membuat sistem login logout
